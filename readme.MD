@@ -1,5 +1,13 @@
 # Sentimen Analisis Gambar Satwa Liar
 
+![Python](https://img.shields.io/badge/Python-3.12%2B-blue?logo=python)
+![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange?logo=jupyter)
+![Status](https://img.shields.io/badge/Status-Selesai-success)
+
+[![Kaggle](https://img.shields.io/badge/Source-Kaggle-20BEFF?logo=kaggle&logoColor=white)](https://www.kaggle.com/datasets/wildlifedatasets/wildlifereid-10k)
+
+![Kaggle Logo](https://www.kaggle.com/static/images/site-logo.svg)
+
 Repositori ini berisi proyek klasifikasi gambar satwa liar berbasis CNN dengan fokus pipeline end-to-end untuk kebutuhan submission: persiapan data, pelatihan model, evaluasi, dan ekspor model ke beberapa format deployment.
 
 Proyek ini mengacu pada dataset Kaggle **WildlifeReID-10k** dan implementasi notebook di folder `submission`.
@@ -28,13 +36,12 @@ print("Path to dataset files:", path)
 
 ```text
 sentimen analisis gambar/
-├── model/
-│   ├── saved_model/
-│   ├── tfjs_lite/
-│   └── tflite/
 ├── submission/
 │   ├── klasifikasi-gambar.ipynb
 │   ├── requirements.txt
+│   ├── saved_model/
+│   ├── tfjs_lite/
+│   ├── tflite/
 │   └── README.md
 └── README.md
 ```
@@ -85,9 +92,9 @@ Pastikan pipeline mencakup:
 
 Simpan model ke format berikut:
 
-- `SavedModel` → folder `model/saved_model/`
-- `TFLite` → `model/tflite/model.tflite`
-- `TFJS` → folder `model/tfjs_lite/`
+- `SavedModel` → folder `submission/saved_model/`
+- `TFLite` → `submission/tflite/model.tflite`
+- `TFJS` → folder `submission/tfjs_lite/`
 
 ### 7) Finalisasi submission
 
@@ -122,6 +129,11 @@ Simpan model ke format berikut:
 - `requirements.txt` tersedia.
 - `README.md` menjelaskan dataset, alur, dan cara run.
 - Seluruh berkas submission dikemas dalam 1 file `.zip`.
+
+## Insight Tambahan
+
+- Walau nama folder proyek menggunakan kata "sentimen", implementasi yang berjalan saat ini adalah **klasifikasi gambar satwa liar** (computer vision), bukan analisis sentimen teks.
+- Fokus eksperimen terbaik saat ini adalah menstabilkan akurasi klasifikasi spesies dan kualitas ekspor model untuk deployment.
 
 ## Lisensi
 

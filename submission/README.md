@@ -52,7 +52,7 @@ Dokumen utama submission berada di folder ini:
 
 - Notebook: `klasifikasi-gambar.ipynb`
 - Dependensi: `requirements.txt`
-- Artefak model (hasil rapih): di folder `../model/`
+- Artefak model: di folder `saved_model/`, `tflite/`, dan `tfjs_lite/`
 
 Langkah umum menjalankan submission:
 
@@ -68,13 +68,11 @@ Langkah umum menjalankan submission:
 ```text
 submission/
 ├─ klasifikasi-gambar.ipynb
-├─ requirements.txt
-└─ README.md
-
-model/
 ├─ saved_model/
 ├─ tflite/
-└─ tfjs_lite/
+├─ tfjs_lite/
+├─ requirements.txt
+└─ README.md
 ```
 
 ## Referensi
