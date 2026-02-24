@@ -6,7 +6,7 @@
 
 [![Kaggle](https://img.shields.io/badge/Source-Kaggle-20BEFF?logo=kaggle&logoColor=white)](https://www.kaggle.com/datasets/wildlifedatasets/wildlifereid-10k)
 
-![Kaggle Logo](https://www.kaggle.com/static/images/site-logo.svg)
+
 
 Repositori ini berisi proyek klasifikasi gambar satwa liar berbasis CNN dengan fokus pipeline end-to-end untuk kebutuhan submission: persiapan data, pelatihan model, evaluasi, dan ekspor model ke beberapa format deployment.
 
