@@ -1,0 +1,27 @@
+﻿{
+  "format": "layers-model",
+  "generatedBy": "directory-cleanup",
+  "convertedBy": "manual",
+  "modelTopology": {},
+  "weightsManifest": [
+    {
+      "paths": [
+        "group1-shard1of14.bin",
+        "group1-shard2of14.bin",
+        "group1-shard3of14.bin",
+        "group1-shard4of14.bin",
+        "group1-shard5of14.bin",
+        "group1-shard6of14.bin",
+        "group1-shard7of14.bin",
+        "group1-shard8of14.bin",
+        "group1-shard9of14.bin",
+        "group1-shard10of14.bin",
+        "group1-shard11of14.bin",
+        "group1-shard12of14.bin",
+        "group1-shard13of14.bin",
+        "group1-shard14of14.bin"
+      ],
+      "weights": []
+    }
+  ]
+}
